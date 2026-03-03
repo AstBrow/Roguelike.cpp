@@ -30,12 +30,50 @@ fight enemies, and unlock special abilities.
 
 ## 🛠️ Built With
 
-* C++ (C++17)
-* Standard Library only (no external dependencies)
+- C++ (C++17)
+- Standard Library only (no external dependencies)
 
 ## 🚀 How To Compile And Run
 
 ### Linux / MacOS
-```bash
 g++ -std=c++17 main.cpp -o game
 ./game
+
+### Windows (with MinGW)
+g++ -std=c++17 main.cpp -o game.exe
+game.exe
+
+### Windows (Visual Studio)
+1. Create new Console Application project
+2. Replace the content of `main.cpp` with my code
+3. Build and run (Ctrl+F5)
+
+## 📁 Project Structure
+
+Just one file for now — `main.cpp`. I'm learning how to structure 
+code properly, and my next project will have better organization 
+with classes and multiple files.
+
+## 🎯 What I Learned
+
+- Basic C++ syntax (loops, conditions, functions)
+- Working with arrays and vectors
+- File I/O for save/load system
+- Random number generation
+- User input handling
+- Game loop logic
+
+## 🔜 Next Steps
+
+My next project will be better organized with:
+
+- Multiple files and classes
+- Better code structure
+- Clean architecture
+- More comments in English
+
+## 📫 Contact
+
+Alex - tg: @astbrow
+
+Project link: [https://github.com/yourusername/console-roguelike](https://github.com/yourusername/console-roguelike)
